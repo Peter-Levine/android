@@ -9,7 +9,7 @@
            sync-c="true"
            sync-j="12" />
 
-  <project path="device/oneplus/fajita" name="mauronofrio/android_device_oneplus_fajita" remote="github" revision="android-9.0" />
+  <project path="device/oneplus/fajita" name="Peter-Levine/android_device_oneplus_fajita" remote="github" revision="android-9.0" />
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
